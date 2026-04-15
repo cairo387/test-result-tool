@@ -1,0 +1,4 @@
+test_name,status
+login,PASS
+logout,FAIL
+search,PASS
