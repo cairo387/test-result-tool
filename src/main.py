@@ -22,7 +22,10 @@ def count_status(file_path):
 def main():
     file_path = "data/sample.csv"
     result = count_status(file_path)
-    print(result)
+    #辞書のstatusとcount(キーと値のペア)を取り出す
+    for status, count in result.items():
+      #PASS:2の形式で出力
+      print(f"{status}: {count}")
 
 
 if __name__ == "__main__":
